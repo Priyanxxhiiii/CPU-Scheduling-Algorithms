@@ -19,9 +19,9 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 - In this algorithm, every process gets executed cyclically. This means that processes that have their burst time remaining after the expiration of the time quantum are sent back to the ready state and wait for their next turn to complete the execution until it terminates. This processing is done in FIFO order which suggests that processes are executed on a first-come, first-serve basis.
 
 - #### How does the Round Robin Algorithm Work?
-        1. All the processes are added to the ready queue.
-        2. At first, The burst time of every process is compared to the time quantum of the CPU.
-        3. If the burst time of the process is less than or equal to the time quantum in the round-robin scheduling algorithm, the process is executed to its burst time.
-        4. If the burst time of the process is greater than the time quantum, the process is executed up to the time quantum (TQ).
-        5. When the time quantum expires, it checks if the process is executed completely or not.
-        6. On completion, the process terminates. Otherwise, it goes back again to the ready state.
+    1. All the processes are added to the ready queue.
+    2. At first, The burst time of every process is compared to the time quantum of the CPU.
+    3. If the burst time of the process is less than or equal to the time quantum in the round-robin scheduling algorithm, the process is executed to its burst time.
+    4. If the burst time of the process is greater than the time quantum, the process is executed up to the time quantum (TQ).
+    5. When the time quantum expires, it checks if the process is executed completely or not.
+    6. On completion, the process terminates. Otherwise, it goes back again to the ready state.
