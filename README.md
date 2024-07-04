@@ -12,4 +12,4 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 - It is commonly used in batch systems where the order of the processes is important.
 
 ### Round Robin with varying time quantum (RR)
-
+- The Round-robin scheduling algorithm is a kind of preemptive First come, First Serve CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn). 
