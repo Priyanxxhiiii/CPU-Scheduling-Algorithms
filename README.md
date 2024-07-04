@@ -12,9 +12,9 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 - It is commonly used in batch systems where the order of the processes is important.
 
 ### Shortest Job First(SJF) (Non-preemptive)
-Also know as:
-#### Shortest Job Next(SJN)
-#### Shortest Process Next(SPN)
+      Also know as:
+      #### Shortest Job Next(SJN)
+      #### Shortest Process Next(SPN)
 
 - Drawback of First Come First Serve process is that, the job having highest burst time comes first then we have to execute it first even though in that time we can execute two or more process having shortest burst time.
 
