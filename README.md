@@ -34,6 +34,8 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
  - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
 ![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/f148caf0-26e6-4eda-820d-3ca44d3b44df)
 
+- The variable quantum allows the algorithm to be more efficient as it allows the CPU to spend more time on shorter processes and less time on longer ones. This can help to minimize the average waiting time for processes. Additionally, it also helps to avoid the issue of starvation, which occurs when a process with a long burst time prevents other processes from executing.
+
 
 
 
