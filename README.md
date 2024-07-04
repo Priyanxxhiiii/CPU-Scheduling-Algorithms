@@ -2,7 +2,7 @@
 An implementation of various CPU scheduling algorithms. The algorithms included are First Come First Serve(FCFS), Round Robin(RR), Shortest Job First(SJF), Priority Scheduling(PS), and Shortest Remaining Time First(SRTF).
 ## Table of Contents
 ## Algorithms
-### First Come First Serve (FCFS)
+### First Come First Serve (FCFS) (Non-preemptive)
 - First Come First Serve (FCFS) is a CPU scheduling algorithm in which processes are executed on FCFS basis.
 - The request or process which comes first in the ready queue is being executed first.
 - This algorithm does not have any mechanism for prioritizing processes, so it is considered a **non-preemptive** algorithm.
@@ -11,7 +11,21 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 - In FCFS scheduling, the process that arrives first is executed first, regardless of its burst time or priority. This can lead to poor performance, as longer running processes will block shorter ones from being executed.
 - It is commonly used in batch systems where the order of the processes is important.
 
-### Round Robin with varying time quantum (RR)
+### Shortest Job First(SJF) (Non-preemptive)
+#### Shortest Job Next(SJN)
+#### Shortest ProcesS Next(SPN)
+
+- Drawback of First Come First Serve process is that, the job having highest burst time comes first then we have to execute it first even though in that time we can execute two or more process having shortest burst time.
+
+- Shortest Job First(SJF) is a scheduling algorithm that prioritizes the execution of processes based on their burst time, or the amount of time they need to complete their task. It is a __non-preemptive algorithm__ which means that once a process starts executing, it runs until completion or until it enters a waiting state.
+
+- The algorithm maintains a queue of processes, where each process is given a burst time when it arrives. __The process with the shortest burst time is executed first__, and as new processes arrive, they are added to the queue and sorted based on their burst time. The __process with the shortest burst time will always be at the front of the queue__, and thus will always be executed next.
+
+- This algorithm can be beneficial in situations __where the objective is to minimize the average waiting time for processes__, since shorter processes will be executed first, and thus will spend less time waiting in the queue. However, it may cause starvation if shorter processes keep coming i.e., it can lead to longer running processes being blocked by shorter ones, which can negatively impact the overall performance of the system.
+
+- In summary, SJF is a scheduling algorithm that prioritizes the execution of processes based on their burst time, it's non-preemptive and it's commonly used in situations where the objective is to minimize the average waiting time for processes. 
+
+### Round Robin with varying time quantum (RR) (Preemptive)
 - The Round-robin scheduling algorithm is a kind of __preemptive First Come First Serve__ CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn).
   
 - The RR scheduling algorithm is one of the CPU scheduling algorithms in which every process gets a fixed amount of time quantum to execute the process.
