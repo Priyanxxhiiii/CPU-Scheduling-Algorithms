@@ -13,5 +13,7 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 
 ### Round Robin with varying time quantum (RR)
 - The Round-robin scheduling algorithm is a kind of __preemptive First Come First Serve__ CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn).
+  
 - The RR scheduling algorithm is one of the CPU scheduling algorithms in which every process gets a fixed amount of time quantum to execute the process.
+  
 - In this algorithm, every process gets executed cyclically. This means that processes that have their burst time remaining after the expiration of the time quantum are sent back to the ready state and wait for their next turn to complete the execution until it terminates. This processing is done in FIFO order which suggests that processes are executed on a first-come, first-serve basis.
