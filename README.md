@@ -21,7 +21,7 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 - #### How does the Round Robin Algorithm Work?
     1. All the processes are added to the ready queue.
        
-    2. At first, The burst time of every process is compared to the time quantum of the CPU.
+    2. At first, the burst time of every process is compared to the time quantum of the CPU.
     
     3. If the burst time of the process is less than or equal to the time quantum in the round-robin scheduling algorithm, the process is executed to its burst time.
   
@@ -30,3 +30,8 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
     5. When the time quantum expires, it checks if the process is executed completely or not.
      
     6. On completion, the process terminates. Otherwise, it goes back again to the ready state.
+
+ - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
+![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/2e62943a-4a35-404b-94f2-a76f98391a17)
+   
+
