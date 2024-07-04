@@ -32,6 +32,8 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
     6. On completion, the process terminates. Otherwise, it goes back again to the ready state.
 
  - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
-![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/2e62943a-4a35-404b-94f2-a76f98391a17)
+   ![Uploading image.png…]()
+
+
    
 
