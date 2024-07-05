@@ -24,7 +24,22 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 
 - This algorithm can be beneficial in situations __where the objective is to minimize the average waiting time for processes__, since shorter processes will be executed first, and thus will spend less time waiting in the queue. However, it may cause starvation if shorter processes keep coming i.e., it can lead to longer running processes being blocked by shorter ones, which can negatively impact the overall performance of the system.
 
-- In summary, SJF is a scheduling algorithm that prioritizes the execution of processes based on their burst time, it's non-preemptive and it's commonly used in situations where the objective is to minimize the average waiting time for processes. 
+- In summary, SJF is a scheduling algorithm that prioritizes the execution of processes based on their burst time, it's non-preemptive and it's commonly used in situations where the objective is to minimize the average waiting time for processes.
+
+  ### Shortest Remaining Time First - SJF in preemptive order
+- Shortest remaining time first(SRTF) is the preemptive version of the SJF algorithm.
+
+- The concept is same as Shortest Job First(SJF) that is we try to execute the job having smaller execution time first.
+
+- The only difference is that in this algorithm we check at each interval the job queue and select the smallest process from it.
+
+- The processor is allocated to the job closest to completion but it can be preempted by a 
+newer ready job with shorter time to completion.
+  
+- Impossible to implement in interactive systems where required CPU time is not known.
+  
+- It is often used in batch environments where short jobs need to give preference.
+
 
 ### Round Robin with varying time quantum (RR) (Preemptive)
 - The Round-robin scheduling algorithm is a kind of __preemptive First Come First Serve__ CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn).
@@ -50,6 +65,8 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 
  - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
 ![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/f148caf0-26e6-4eda-820d-3ca44d3b44df)
+
+
 
 
 
