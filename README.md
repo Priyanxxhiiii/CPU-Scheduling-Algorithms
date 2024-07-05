@@ -1,5 +1,5 @@
 # CPU-Scheduling-Algorithms
-An implementation of various CPU scheduling algorithms. The algorithms included are First Come First Serve(FCFS), Round Robin(RR), Shortest Job First(SJF), Priority Scheduling(PS), and Shortest Remaining Time First(SRTF).
+An implementation of various CPU scheduling algorithms. The algorithms included are First Come First Serve(FCFS), Shortest Job First(SJF), Shortest Remaining Time First(SRTF), Round Robin(RR) and Priority Scheduling(PS).
 ## Table of Contents
 ## Algorithms
 ### First Come First Serve (FCFS) (Non-preemptive)
