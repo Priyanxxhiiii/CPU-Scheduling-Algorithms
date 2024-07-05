@@ -1,5 +1,5 @@
 # CPU-Scheduling-Algorithms
-An implementation of various CPU scheduling algorithms. The algorithms included are First Come First Serve(FCFS), Shortest Job First(SJF), Shortest Remaining Time First(SRTF), Round Robin(RR) and Priority Scheduling(PS).
+An implementation of various CPU scheduling algorithms. The algorithms included are First Come First Serve(FCFS), Shortest Job First(SJF), Shortest Remaining Time First(SRTF), Priority Scheduling(PS) and Round Robin(RR).
 ## Table of Contents
 ## Algorithms
 ### First Come First Serve (FCFS) (Non-preemptive)
@@ -40,6 +40,17 @@ newer ready job with shorter time to completion.
   
 - It is often used in batch environments where short jobs need to give preference.
 
+### Priority Scheduling (Non-preemptive)
+- Priority scheduling is a non-preemptive algorithm and one of the most common scheduling 
+algorithms in batch systems.
+
+- Each process is assigned a priority. Process with highest priority is to be executed first and 
+so on.
+
+- Processes with same priority are executed on first come first served basis.
+  
+- Priority can be decided based on memory requirements, time requirements or any other 
+resource requirement.
 
 ### Round Robin with varying time quantum (RR) (Preemptive)
 - The Round-robin scheduling algorithm is a kind of __preemptive First Come First Serve__ CPU Scheduling algorithm where each process in the ready state gets the CPU for a fixed time in a cyclic way (turn by turn).
@@ -66,17 +77,7 @@ newer ready job with shorter time to completion.
  - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
 ![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/f148caf0-26e6-4eda-820d-3ca44d3b44df)
 
-### Priority Scheduling (Non-preemptive)
-- Priority scheduling is a non-preemptive algorithm and one of the most common scheduling 
-algorithms in batch systems.
 
-- Each process is assigned a priority. Process with highest priority is to be executed first and 
-so on.
-
-- Processes with same priority are executed on first come first served basis.
-  
-- Priority can be decided based on memory requirements, time requirements or any other 
-resource requirement.
 
 
 
