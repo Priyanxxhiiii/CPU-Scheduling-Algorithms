@@ -66,6 +66,18 @@ newer ready job with shorter time to completion.
  - Consider the below flow diagram for a better understanding of Round Robin scheduling algorithm:
 ![image](https://github.com/Priyanxxhiiii/CPU-Scheduling-Algorithms/assets/135419372/f148caf0-26e6-4eda-820d-3ca44d3b44df)
 
+### Priority Scheduling (Non-preemptive)
+- Priority scheduling is a non-preemptive algorithm and one of the most common scheduling 
+algorithms in batch systems.
+
+- Each process is assigned a priority. Process with highest priority is to be executed first and 
+so on.
+
+- Processes with same priority are executed on first come first served basis.
+  
+- Priority can be decided based on memory requirements, time requirements or any other 
+resource requirement.
+
 
 
 
