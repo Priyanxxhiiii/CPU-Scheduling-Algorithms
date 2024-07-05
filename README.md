@@ -26,7 +26,7 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 
 - In summary, SJF is a scheduling algorithm that prioritizes the execution of processes based on their burst time, it's non-preemptive and it's commonly used in situations where the objective is to minimize the average waiting time for processes.
 
-  ### Shortest Remaining Time First - SJF in preemptive order
+### Shortest Remaining Time First - SJF in preemptive order
 - Shortest remaining time first(SRTF) is the preemptive version of the SJF algorithm.
 
 - The concept is same as Shortest Job First(SJF) that is we try to execute the job having smaller execution time first.
