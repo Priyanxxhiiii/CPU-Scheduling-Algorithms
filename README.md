@@ -9,13 +9,13 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
    
    * The amount of time for which the process waits for the CPU to be assigned for execution.
    
-  --   __Formula for Waiting Time-- WT= Turn Around Time(TAT) - Burst Time(CPU time)__
+  *   __Formula for Waiting Time-- WT= Turn Around Time(TAT) - Burst Time(CPU time)__
    
 4. __Burst Time:__ The amount of time required by the CPU to process a job.
    
 5. __Turn Around Time:__ TAT is the amount of time spend by the process from its arrival to its completion.
    
-   __First Formula for TAT: TAT = Completion Time(CT) - Waiting Time(WT)
+  * __First Formula for TAT: TAT = Completion Time(CT) - Waiting Time(WT)
      Second Formula for TAT: TAT = Waiting Time + Burst Time__
    
 ### First Come First Serve (FCFS) (Non-preemptive)
