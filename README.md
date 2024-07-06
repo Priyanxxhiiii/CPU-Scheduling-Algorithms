@@ -9,7 +9,7 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
    
    * The amount of time for which the process waits for the CPU to be assigned for execution.
    
-  *   __Formula for Waiting Time-- WT= Turn Around Time(TAT) - Burst Time(CPU time)__
+  *   __Formula for Waiting Time-- WT= Turn Around Time(TAT) - Burst Time(CPU time)__ #f03c15
    
 4. __Burst Time:__ The amount of time required by the CPU to process a job.
    
