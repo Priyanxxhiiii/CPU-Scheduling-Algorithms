@@ -4,10 +4,16 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
 ## Algorithms
 ### Note(Common to all algorithms)-
 1. __Arrival Time:__ The time at which the process enters into ready queue.
-2. __Waiting Time:__ The amount of time that a specific process need to wait in the ready queue. __OR__ The amount of time for which the process waits for the CPU to be assigned for execution.
+   
+2. __Waiting Time:__ The amount of time that a specific process need to wait in the ready queue. __OR__
+                     The amount of time for which the process waits for the CPU to be assigned for execution.
+   
    __Formula for Waiting Time-- WT= Turn Around Time(TAT) - Burst Time(CPU time)__
+   
 3. __Burst Time:__ The amount of time required by the CPU to process a job.
+   
 4. __Turn Around Time:__ TAT is the amount of time spend by the process from its arrival to its completion.
+   
    __First Formula for TAT: TAT = Completion Time(CT) - Waiting Time(WT)
      Second Formula for TAT: TAT = Waiting Time + Burst Time__
    
