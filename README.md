@@ -20,6 +20,7 @@ An implementation of various CPU scheduling algorithms. The algorithms included 
    
 ### First Come First Serve (FCFS) (Non-preemptive)
 - First Come First Serve (FCFS) is a CPU scheduling algorithm in which processes are executed on FCFS basis.
+- The First Come First Serve scheduling algorithm states that the process that requests the CPU first is allocated the CPU first.
 - The request or process which comes first in the ready queue is being executed first.
 - This algorithm does not have any mechanism for prioritizing processes, so it is considered a **non-preemptive** algorithm.
 - It is simple, easy-to-understand & easy-to-implement but poor in performance as average waiting time is high or we can say that it can lead to poor performance if there are processes with long burst times.
